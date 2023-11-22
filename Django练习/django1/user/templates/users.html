@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>所有用户</title>
+</head>
+<body>
+    <h2>所有用户</h2>
+    <hr>
+
+    <ul>
+        {% for foo in %}
+            <li>{{ user.name }},{{ user.age }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
